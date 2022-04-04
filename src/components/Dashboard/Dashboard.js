@@ -28,7 +28,7 @@ const Dashboard = () => {
                     </LineChart>
                 </div>
 
-                <div className='w-[500px]'>
+                <div>
                     <h1 className='text-center text-2xl text-blue-500'>investment Vs revenue</h1>
                     <BarChart width={500} height={400} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
